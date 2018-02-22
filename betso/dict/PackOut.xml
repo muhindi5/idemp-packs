@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?><idempiere Name="betso" Version="1.0.0" idempiereVersion="" DataBaseVersion="" Description="A silly form for betting company names." Author="" AuthorEmail="" CreatedDate="2018-02-22 06:48:28.205" UpdatedDate="2018-02-22 06:48:28.205" PackOutVersion="100" UpdateDictionary="false" Client="11-GardenWorld-GardenWorld" AD_Client_UU="3268b9a8-10d8-466d-96e5-aa01166408fa">
+    <AD_Window type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <Name>Silly Window</Name>
+        <Description>A silly window for hok script testing</Description>
+        <Help/>
+        <IsActive>Y</IsActive>
+        <WindowType>M</WindowType>
+        <Processing>N</Processing>
+        <AD_Color_ID reference="id"/>
+        <AD_Image_ID reference="id"/>
+        <EntityType>U</EntityType>
+        <IsSOTrx>N</IsSOTrx>
+        <IsDefault>N</IsDefault>
+        <WinHeight>0</WinHeight>
+        <WinWidth>0</WinWidth>
+        <IsBetaFunctionality>N</IsBetaFunctionality>
+        <AD_Window_UU>2722dadb-ded0-4f28-9efa-a9bf360d0adb</AD_Window_UU>
+        <TitleLogic/>
+        <AD_Window_Trl type="translation">
+            <Help/>
+            <Name>Silly Window</Name>
+            <Description>A silly window for hok script testing</Description>
+            <AD_Language>es_CO</AD_Language>
+            <IsActive>Y</IsActive>
+            <IsTranslated>N</IsTranslated>
+        </AD_Window_Trl>
+        <AD_Table type="table">
+            <AD_Client_ID>0</AD_Client_ID>
+            <AD_Org_ID>0</AD_Org_ID>
+            <Name>SilWin2</Name>
+            <Description/>
+            <Help/>
+            <AD_Window_ID reference="id"/>
+            <AD_Val_Rule_ID reference="id"/>
+            <TableName>STP_SillWIn2</TableName>
+            <LoadSeq>0</LoadSeq>
+            <AccessLevel>3</AccessLevel>
+            <IsActive>Y</IsActive>
+            <IsSecurityEnabled>N</IsSecurityEnabled>
+            <IsDeleteable>Y</IsDeleteable>
+            <IsHighVolume>N</IsHighVolume>
+            <IsView>N</IsView>
+            <EntityType>U</EntityType>
+            <ImportTable>N</ImportTable>
+            <IsChangeLog>Y</IsChangeLog>
+            <ReplicationType>L</ReplicationType>
+            <PO_Window_ID reference="id"/>
+            <CopyColumnsFromTable>N</CopyColumnsFromTable>
+            <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+            <AD_Table_UU>e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_UU>
+            <Processing>N</Processing>
+            <DatabaseViewDrop>N</DatabaseViewDrop>
+            <CopyComponentsFromView>N</CopyComponentsFromView>
+            <AD_Element type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <IsActive>Y</IsActive>
+                <ColumnName>STP_SillWIn2_ID</ColumnName>
+                <Name>SilWin2</Name>
+                <Description/>
+                <Help/>
+                <PrintName>SilWin2</PrintName>
+                <PO_Description/>
+                <PO_Help/>
+                <PO_Name/>
+                <PO_PrintName/>
+                <EntityType>U</EntityType>
+                <AD_Element_UU>3cc63df9-f866-4038-a8a4-6a67c7e5930d</AD_Element_UU>
+                <AD_Element_Trl type="translation">
+                    <Help/>
+                    <PO_Description/>
+                    <PO_Help/>
+                    <Name>SilWin2</Name>
+                    <Description/>
+                    <PrintName>SilWin2</PrintName>
+                    <PO_Name/>
+                    <PO_PrintName/>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Element_Trl>
+            </AD_Element>
+            <AD_Column type="table">
+                <IsSyncDatabase>Y</IsSyncDatabase>
+                <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Version>1</Version>
+                <Name>SilWin2</Name>
+                <Description/>
+                <Help/>
+                <AD_Val_Rule_ID reference="id"/>
+                <ColumnName>STP_SillWIn2_ID</ColumnName>
+                <DefaultValue/>
+                <FieldLength>22</FieldLength>
+                <IsKey>Y</IsKey>
+                <IsParent>N</IsParent>
+                <IsMandatory>Y</IsMandatory>
+                <IsTranslated>N</IsTranslated>
+                <IsIdentifier>N</IsIdentifier>
+                <SeqNo/>
+                <IsEncrypted>N</IsEncrypted>
+                <AD_Reference_ID reference="id">13</AD_Reference_ID>
+                <IsActive>Y</IsActive>
+                <VFormat/>
+                <Callout/>
+                <AD_Element_ID reference="uuid" reference-key="AD_Element">3cc63df9-f866-4038-a8a4-6a67c7e5930d</AD_Element_ID>
+                <IsUpdateable>N</IsUpdateable>
+                <AD_Process_ID reference="id"/>
+                <ValueMin/>
+                <ValueMax/>
+                <IsSelectionColumn>N</IsSelectionColumn>
+                <ReadOnlyLogic/>
+                <EntityType>U</EntityType>
+                <IsAlwaysUpdateable>N</IsAlwaysUpdateable>
+                <ColumnSQL/>
+                <MandatoryLogic/>
+                <IsAutocomplete>N</IsAutocomplete>
+                <IsAllowLogging>Y</IsAllowLogging>
+                <FormatPattern/>
+                <AD_Chart_ID reference="id"/>
+                <AD_Column_UU>b34112f7-e881-4fc6-8c08-10fe7937974f</AD_Column_UU>
+                <IsAllowCopy>N</IsAllowCopy>
+                <SeqNoSelection/>
+                <IsToolbarButton>N</IsToolbarButton>
+                <IsSecure>N</IsSecure>
+                <FKConstraintName/>
+                <FKConstraintType>N</FKConstraintType>
+                <PA_DashboardContent_ID reference="id"/>
+            </AD_Column>
+            <AD_Column type="table">
+                <IsSyncDatabase>Y</IsSyncDatabase>
+                <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Version>1</Version>
+                <Name>Client</Name>
+                <Description>Client/Tenant for this installation.</Description>
+                <Help>A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.</Help>
+                <AD_Val_Rule_ID reference="id">129</AD_Val_Rule_ID>
+                <ColumnName>AD_Client_ID</ColumnName>
+                <DefaultValue>@#AD_Client_ID@</DefaultValue>
+                <FieldLength>22</FieldLength>
+                <IsKey>N</IsKey>
+                <IsParent>N</IsParent>
+                <IsMandatory>Y</IsMandatory>
+                <IsTranslated>N</IsTranslated>
+                <IsIdentifier>N</IsIdentifier>
+                <SeqNo/>
+                <IsEncrypted>N</IsEncrypted>
+                <AD_Reference_ID reference="id">19</AD_Reference_ID>
+                <IsActive>Y</IsActive>
+                <VFormat/>
+                <Callout/>
+                <AD_Element_ID reference="id">102</AD_Element_ID>
+                <IsUpdateable>N</IsUpdateable>
+                <AD_Process_ID reference="id"/>
+                <ValueMin/>
+                <ValueMax/>
+                <IsSelectionColumn>N</IsSelectionColumn>
+                <ReadOnlyLogic/>
+                <EntityType>U</EntityType>
+                <IsAlwaysUpdateable>N</IsAlwaysUpdateable>
+                <ColumnSQL/>
+                <MandatoryLogic/>
+                <IsAutocomplete>N</IsAutocomplete>
+                <IsAllowLogging>Y</IsAllowLogging>
+                <FormatPattern/>
+                <AD_Chart_ID reference="id"/>
+                <AD_Column_UU>41e4abbe-0492-4577-9479-67f78a5a74e9</AD_Column_UU>
+                <IsAllowCopy>N</IsAllowCopy>
+                <SeqNoSelection/>
+                <IsToolbarButton>N</IsToolbarButton>
+                <IsSecure>N</IsSecure>
+                <FKConstraintName>ADClient_STPSillWIn2</FKConstraintName>
+                <FKConstraintType>N</FKConstraintType>
+                <PA_DashboardContent_ID reference="id"/>
+            </AD_Column>
+            <AD_Column type="table">
+                <IsSyncDatabase>Y</IsSyncDatabase>
+                <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Version>1</Version>
+                <Name>Organization</Name>
+                <Description>Organizational entity within client</Description>
+                <Help>An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.</Help>
+                <AD_Val_Rule_ID reference="id">104</AD_Val_Rule_ID>
+                <ColumnName>AD_Org_ID</ColumnName>
+                <DefaultValue>@#AD_Org_ID@</DefaultValue>
+                <FieldLength>22</FieldLength>
+                <IsKey>N</IsKey>
+                <IsParent>N</IsParent>
+                <IsMandatory>Y</IsMandatory>
+                <IsTranslated>N</IsTranslated>
+                <IsIdentifier>N</IsIdentifier>
+                <SeqNo/>
+                <IsEncrypted>N</IsEncrypted>
+                <AD_Reference_ID reference="id">19</AD_Reference_ID>
+                <IsActive>Y</IsActive>
+                <VFormat/>
+                <Callout/>
+                <AD_Element_ID reference="id">113</AD_Element_ID>
+                <IsUpdateable>N</IsUpdateable>
+                <AD_Process_ID reference="id"/>
+                <ValueMin/>
+                <ValueMax/>
+                <IsSelectionColumn>N</IsSelectionColumn>
+                <ReadOnlyLogic/>
+                <EntityType>U</EntityType>
+                <IsAlwaysUpdateable>N</IsAlwaysUpdateable>
+                <ColumnSQL/>
+                <MandatoryLogic/>
+                <IsAutocomplete>N</IsAutocomplete>
+                <IsAllowLogging>Y</IsAllowLogging>
+                <FormatPattern/>
+                <AD_Chart_ID reference="id"/>
+                <AD_Column_UU>c57a6faa-9e3d-484f-b25c-8af6bf34076a</AD_Column_UU>
+                <IsAllowCopy>N</IsAllowCopy>
+                <SeqNoSelection/>
+                <IsToolbarButton>N</IsToolbarButton>
+                <IsSecure>N</IsSecure>
+                <FKConstraintName>ADOrg_STPSillWIn2</FKConstraintName>
+                <FKConstraintType>N</FKConstraintType>
+                <PA_DashboardContent_ID reference="id"/>
+            </AD_Column>
+            <AD_Element type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <IsActive>Y</IsActive>
+                <ColumnName>STP_SillWIn2_UU</ColumnName>
+                <Name>STP_SillWIn2_UU</Name>
+                <Description/>
+                <Help/>
+                <PrintName>STP_SillWIn2_UU</PrintName>
+                <PO_Description/>
+                <PO_Help/>
+                <PO_Name/>
+                <PO_PrintName/>
+                <EntityType>U</EntityType>
+                <AD_Element_UU>c5c059c4-23af-4058-a089-e28b986806d4</AD_Element_UU>
+                <AD_Element_Trl type="translation">
+                    <Help/>
+                    <PO_Description/>
+                    <PO_Help/>
+                    <Name>STP_SillWIn2_UU</Name>
+                    <Description/>
+                    <PrintName>STP_SillWIn2_UU</PrintName>
+                    <PO_Name/>
+                    <PO_PrintName/>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Element_Trl>
+            </AD_Element>
+            <AD_Column type="table">
+                <IsSyncDatabase>Y</IsSyncDatabase>
+                <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Version>1.00</Version>
+                <Name>STP_SillWIn2_UU</Name>
+                <Description/>
+                <Help/>
+                <AD_Val_Rule_ID reference="id"/>
+                <ColumnName>STP_SillWIn2_UU</ColumnName>
+                <DefaultValue/>
+                <FieldLength>36</FieldLength>
+                <IsKey>N</IsKey>
+                <IsParent>N</IsParent>
+                <IsMandatory>N</IsMandatory>
+                <IsTranslated>N</IsTranslated>
+                <IsIdentifier>N</IsIdentifier>
+                <SeqNo/>
+                <IsEncrypted>N</IsEncrypted>
+                <AD_Reference_ID reference="id">10</AD_Reference_ID>
+                <IsActive>Y</IsActive>
+                <VFormat/>
+                <Callout/>
+                <AD_Element_ID reference="uuid" reference-key="AD_Element">c5c059c4-23af-4058-a089-e28b986806d4</AD_Element_ID>
+                <IsUpdateable>Y</IsUpdateable>
+                <AD_Process_ID reference="id"/>
+                <ValueMin/>
+                <ValueMax/>
+                <IsSelectionColumn>N</IsSelectionColumn>
+                <ReadOnlyLogic/>
+                <EntityType>U</EntityType>
+                <IsAlwaysUpdateable>N</IsAlwaysUpdateable>
+                <ColumnSQL/>
+                <MandatoryLogic/>
+                <IsAutocomplete>N</IsAutocomplete>
+                <IsAllowLogging>Y</IsAllowLogging>
+                <FormatPattern/>
+                <AD_Chart_ID reference="id"/>
+                <AD_Column_UU>5c5c6b4c-e1f8-42fc-96fb-18bda87ae156</AD_Column_UU>
+                <IsAllowCopy>N</IsAllowCopy>
+                <SeqNoSelection/>
+                <IsToolbarButton>N</IsToolbarButton>
+                <IsSecure>N</IsSecure>
+                <FKConstraintName/>
+                <FKConstraintType>N</FKConstraintType>
+                <PA_DashboardContent_ID reference="id"/>
+            </AD_Column>
+            <AD_Column type="table">
+                <IsSyncDatabase>Y</IsSyncDatabase>
+                <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Version>1</Version>
+                <Name>Created</Name>
+                <Description>Date this record was created</Description>
+                <Help>The Created field indicates the date that this record was created.</Help>
+                <AD_Val_Rule_ID reference="id"/>
+                <ColumnName>Created</ColumnName>
+                <DefaultValue>SYSDATE</DefaultValue>
+                <FieldLength>7</FieldLength>
+                <IsKey>N</IsKey>
+                <IsParent>N</IsParent>
+                <IsMandatory>Y</IsMandatory>
+                <IsTranslated>N</IsTranslated>
+                <IsIdentifier>N</IsIdentifier>
+                <SeqNo/>
+                <IsEncrypted>N</IsEncrypted>
+                <AD_Reference_ID reference="id">16</AD_Reference_ID>
+                <IsActive>Y</IsActive>
+                <VFormat/>
+                <Callout/>
+                <AD_Element_ID reference="id">245</AD_Element_ID>
+                <IsUpdateable>N</IsUpdateable>
+                <AD_Process_ID reference="id"/>
+                <ValueMin/>
+                <ValueMax/>
+                <IsSelectionColumn>N</IsSelectionColumn>
+                <ReadOnlyLogic/>
+                <EntityType>U</EntityType>
+                <IsAlwaysUpdateable>N</IsAlwaysUpdateable>
+                <ColumnSQL/>
+                <MandatoryLogic/>
+                <IsAutocomplete>N</IsAutocomplete>
+                <IsAllowLogging>Y</IsAllowLogging>
+                <FormatPattern/>
+                <AD_Chart_ID reference="id"/>
+                <AD_Column_UU>d32d5053-3df4-4b9f-ae29-7f63c38f1a55</AD_Column_UU>
+                <IsAllowCopy>N</IsAllowCopy>
+                <SeqNoSelection/>
+                <IsToolbarButton>N</IsToolbarButton>
+                <IsSecure>N</IsSecure>
+                <FKConstraintName/>
+                <FKConstraintType>N</FKConstraintType>
+                <PA_DashboardContent_ID reference="id"/>
+            </AD_Column>
+            <AD_Column type="table">
+                <IsSyncDatabase>Y</IsSyncDatabase>
+                <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+                <AD_Reference_Value_ID reference="id">110</AD_Reference_Value_ID>
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Version>1</Version>
+                <Name>Created By</Name>
+                <Description>User who created this records</Description>
+                <Help>The Created By field indicates the user who created this record.</Help>
+                <AD_Val_Rule_ID reference="id"/>
+                <ColumnName>CreatedBy</ColumnName>
+                <DefaultValue/>
+                <FieldLength>22</FieldLength>
+                <IsKey>N</IsKey>
+                <IsParent>N</IsParent>
+                <IsMandatory>Y</IsMandatory>
+                <IsTranslated>N</IsTranslated>
+                <IsIdentifier>N</IsIdentifier>
+                <SeqNo/>
+                <IsEncrypted>N</IsEncrypted>
+                <AD_Reference_ID reference="id">18</AD_Reference_ID>
+                <IsActive>Y</IsActive>
+                <VFormat/>
+                <Callout/>
+                <AD_Element_ID reference="id">246</AD_Element_ID>
+                <IsUpdateable>N</IsUpdateable>
+                <AD_Process_ID reference="id"/>
+                <ValueMin/>
+                <ValueMax/>
+                <IsSelectionColumn>N</IsSelectionColumn>
+                <ReadOnlyLogic/>
+                <EntityType>U</EntityType>
+                <IsAlwaysUpdateable>N</IsAlwaysUpdateable>
+                <ColumnSQL/>
+                <MandatoryLogic/>
+                <IsAutocomplete>N</IsAutocomplete>
+                <IsAllowLogging>Y</IsAllowLogging>
+                <FormatPattern/>
+                <AD_Chart_ID reference="id"/>
+                <AD_Column_UU>98ddc2e3-0d92-43e1-b28b-51d17c1dc5f7</AD_Column_UU>
+                <IsAllowCopy>N</IsAllowCopy>
+                <SeqNoSelection/>
+                <IsToolbarButton>N</IsToolbarButton>
+                <IsSecure>N</IsSecure>
+                <FKConstraintName/>
+                <FKConstraintType>D</FKConstraintType>
+                <PA_DashboardContent_ID reference="id"/>
+            </AD_Column>
+            <AD_Column type="table">
+                <IsSyncDatabase>Y</IsSyncDatabase>
+                <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Version>1</Version>
+                <Name>Description</Name>
+                <Description>Optional short description of the record</Description>
+                <Help>A description is limited to 255 characters.</Help>
+                <AD_Val_Rule_ID reference="id"/>
+                <ColumnName>Description</ColumnName>
+                <DefaultValue/>
+                <FieldLength>255</FieldLength>
+                <IsKey>N</IsKey>
+                <IsParent>N</IsParent>
+                <IsMandatory>N</IsMandatory>
+                <IsTranslated>N</IsTranslated>
+                <IsIdentifier>N</IsIdentifier>
+                <SeqNo/>
+                <IsEncrypted>N</IsEncrypted>
+                <AD_Reference_ID reference="id">10</AD_Reference_ID>
+                <IsActive>Y</IsActive>
+                <VFormat/>
+                <Callout/>
+                <AD_Element_ID reference="id">275</AD_Element_ID>
+                <IsUpdateable>Y</IsUpdateable>
+                <AD_Process_ID reference="id"/>
+                <ValueMin/>
+                <ValueMax/>
+                <IsSelectionColumn>Y</IsSelectionColumn>
+                <ReadOnlyLogic/>
+                <EntityType>U</EntityType>
+                <IsAlwaysUpdateable>N</IsAlwaysUpdateable>
+                <ColumnSQL/>
+                <MandatoryLogic/>
+                <IsAutocomplete>N</IsAutocomplete>
+                <IsAllowLogging>Y</IsAllowLogging>
+                <FormatPattern/>
+                <AD_Chart_ID reference="id"/>
+                <AD_Column_UU>1ff3e8ae-764d-4b4c-a6a3-f9d767196b3a</AD_Column_UU>
+                <IsAllowCopy>Y</IsAllowCopy>
+                <SeqNoSelection/>
+                <IsToolbarButton>N</IsToolbarButton>
+                <IsSecure>N</IsSecure>
+                <FKConstraintName/>
+                <FKConstraintType>N</FKConstraintType>
+                <PA_DashboardContent_ID reference="id"/>
+            </AD_Column>
+            <AD_Column type="table">
+                <IsSyncDatabase>Y</IsSyncDatabase>
+                <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Version>1</Version>
+                <Name>Active</Name>
+                <Description>The record is active in the system</Description>
+                <Help>There are two methods of making records unavailable in the system: One is to delete the record, the other is to de-activate the record. A de-activated record is not available for selection, but available for reports.
+There are two reasons for de-activating and not deleting records:
+(1) The system requires the record for audit purposes.
+(2) The record is referenced by other records. E.g., you cannot delete a Business Partner, if there are invoices for this partner record existing. You de-activate the Business Partner and prevent that this record is used for future entries.</Help>
+                <AD_Val_Rule_ID reference="id"/>
+                <ColumnName>IsActive</ColumnName>
+                <DefaultValue>Y</DefaultValue>
+                <FieldLength>1</FieldLength>
+                <IsKey>N</IsKey>
+                <IsParent>N</IsParent>
+                <IsMandatory>Y</IsMandatory>
+                <IsTranslated>N</IsTranslated>
+                <IsIdentifier>N</IsIdentifier>
+                <SeqNo/>
+                <IsEncrypted>N</IsEncrypted>
+                <AD_Reference_ID reference="id">20</AD_Reference_ID>
+                <IsActive>Y</IsActive>
+                <VFormat/>
+                <Callout/>
+                <AD_Element_ID reference="id">348</AD_Element_ID>
+                <IsUpdateable>Y</IsUpdateable>
+                <AD_Process_ID reference="id"/>
+                <ValueMin/>
+                <ValueMax/>
+                <IsSelectionColumn>N</IsSelectionColumn>
+                <ReadOnlyLogic/>
+                <EntityType>U</EntityType>
+                <IsAlwaysUpdateable>N</IsAlwaysUpdateable>
+                <ColumnSQL/>
+                <MandatoryLogic/>
+                <IsAutocomplete>N</IsAutocomplete>
+                <IsAllowLogging>Y</IsAllowLogging>
+                <FormatPattern/>
+                <AD_Chart_ID reference="id"/>
+                <AD_Column_UU>bcc42bb3-06f0-4330-a432-1b26205ffc29</AD_Column_UU>
+                <IsAllowCopy>N</IsAllowCopy>
+                <SeqNoSelection/>
+                <IsToolbarButton>N</IsToolbarButton>
+                <IsSecure>N</IsSecure>
+                <FKConstraintName/>
+                <FKConstraintType>N</FKConstraintType>
+                <PA_DashboardContent_ID reference="id"/>
+            </AD_Column>
+            <AD_Column type="table">
+                <IsSyncDatabase>Y</IsSyncDatabase>
+                <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Version>1</Version>
+                <Name>Name</Name>
+                <Description>Alphanumeric identifier of the entity</Description>
+                <Help>The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.</Help>
+                <AD_Val_Rule_ID reference="id"/>
+                <ColumnName>Name</ColumnName>
+                <DefaultValue/>
+                <FieldLength>60</FieldLength>
+                <IsKey>N</IsKey>
+                <IsParent>N</IsParent>
+                <IsMandatory>Y</IsMandatory>
+                <IsTranslated>N</IsTranslated>
+                <IsIdentifier>Y</IsIdentifier>
+                <SeqNo>1</SeqNo>
+                <IsEncrypted>N</IsEncrypted>
+                <AD_Reference_ID reference="id">10</AD_Reference_ID>
+                <IsActive>Y</IsActive>
+                <VFormat/>
+                <Callout/>
+                <AD_Element_ID reference="id">469</AD_Element_ID>
+                <IsUpdateable>Y</IsUpdateable>
+                <AD_Process_ID reference="id"/>
+                <ValueMin/>
+                <ValueMax/>
+                <IsSelectionColumn>Y</IsSelectionColumn>
+                <ReadOnlyLogic/>
+                <EntityType>U</EntityType>
+                <IsAlwaysUpdateable>N</IsAlwaysUpdateable>
+                <ColumnSQL/>
+                <MandatoryLogic/>
+                <IsAutocomplete>N</IsAutocomplete>
+                <IsAllowLogging>Y</IsAllowLogging>
+                <FormatPattern/>
+                <AD_Chart_ID reference="id"/>
+                <AD_Column_UU>12b4802a-6965-4a90-be78-82f74bf3d9dc</AD_Column_UU>
+                <IsAllowCopy>Y</IsAllowCopy>
+                <SeqNoSelection/>
+                <IsToolbarButton>N</IsToolbarButton>
+                <IsSecure>N</IsSecure>
+                <FKConstraintName/>
+                <FKConstraintType>N</FKConstraintType>
+                <PA_DashboardContent_ID reference="id"/>
+            </AD_Column>
+            <AD_Column type="table">
+                <IsSyncDatabase>Y</IsSyncDatabase>
+                <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Version>1</Version>
+                <Name>Updated</Name>
+                <Description>Date this record was updated</Description>
+                <Help>The Updated field indicates the date that this record was updated.</Help>
+                <AD_Val_Rule_ID reference="id"/>
+                <ColumnName>Updated</ColumnName>
+                <DefaultValue>SYSDATE</DefaultValue>
+                <FieldLength>7</FieldLength>
+                <IsKey>N</IsKey>
+                <IsParent>N</IsParent>
+                <IsMandatory>Y</IsMandatory>
+                <IsTranslated>N</IsTranslated>
+                <IsIdentifier>N</IsIdentifier>
+                <SeqNo/>
+                <IsEncrypted>N</IsEncrypted>
+                <AD_Reference_ID reference="id">16</AD_Reference_ID>
+                <IsActive>Y</IsActive>
+                <VFormat/>
+                <Callout/>
+                <AD_Element_ID reference="id">607</AD_Element_ID>
+                <IsUpdateable>N</IsUpdateable>
+                <AD_Process_ID reference="id"/>
+                <ValueMin/>
+                <ValueMax/>
+                <IsSelectionColumn>N</IsSelectionColumn>
+                <ReadOnlyLogic/>
+                <EntityType>U</EntityType>
+                <IsAlwaysUpdateable>N</IsAlwaysUpdateable>
+                <ColumnSQL/>
+                <MandatoryLogic/>
+                <IsAutocomplete>N</IsAutocomplete>
+                <IsAllowLogging>Y</IsAllowLogging>
+                <FormatPattern/>
+                <AD_Chart_ID reference="id"/>
+                <AD_Column_UU>373a7bc2-9f4f-4b8a-85de-7a0a0b2e41fe</AD_Column_UU>
+                <IsAllowCopy>N</IsAllowCopy>
+                <SeqNoSelection/>
+                <IsToolbarButton>N</IsToolbarButton>
+                <IsSecure>N</IsSecure>
+                <FKConstraintName/>
+                <FKConstraintType>N</FKConstraintType>
+                <PA_DashboardContent_ID reference="id"/>
+            </AD_Column>
+            <AD_Column type="table">
+                <IsSyncDatabase>Y</IsSyncDatabase>
+                <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+                <AD_Reference_Value_ID reference="id">110</AD_Reference_Value_ID>
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Version>1</Version>
+                <Name>Updated By</Name>
+                <Description>User who updated this records</Description>
+                <Help>The Updated By field indicates the user who updated this record.</Help>
+                <AD_Val_Rule_ID reference="id"/>
+                <ColumnName>UpdatedBy</ColumnName>
+                <DefaultValue/>
+                <FieldLength>22</FieldLength>
+                <IsKey>N</IsKey>
+                <IsParent>N</IsParent>
+                <IsMandatory>Y</IsMandatory>
+                <IsTranslated>N</IsTranslated>
+                <IsIdentifier>N</IsIdentifier>
+                <SeqNo/>
+                <IsEncrypted>N</IsEncrypted>
+                <AD_Reference_ID reference="id">18</AD_Reference_ID>
+                <IsActive>Y</IsActive>
+                <VFormat/>
+                <Callout/>
+                <AD_Element_ID reference="id">608</AD_Element_ID>
+                <IsUpdateable>N</IsUpdateable>
+                <AD_Process_ID reference="id"/>
+                <ValueMin/>
+                <ValueMax/>
+                <IsSelectionColumn>N</IsSelectionColumn>
+                <ReadOnlyLogic/>
+                <EntityType>U</EntityType>
+                <IsAlwaysUpdateable>N</IsAlwaysUpdateable>
+                <ColumnSQL/>
+                <MandatoryLogic/>
+                <IsAutocomplete>N</IsAutocomplete>
+                <IsAllowLogging>Y</IsAllowLogging>
+                <FormatPattern/>
+                <AD_Chart_ID reference="id"/>
+                <AD_Column_UU>d888d503-395f-4812-aef8-3acd61a3f33d</AD_Column_UU>
+                <IsAllowCopy>N</IsAllowCopy>
+                <SeqNoSelection/>
+                <IsToolbarButton>N</IsToolbarButton>
+                <IsSecure>N</IsSecure>
+                <FKConstraintName/>
+                <FKConstraintType>D</FKConstraintType>
+                <PA_DashboardContent_ID reference="id"/>
+            </AD_Column>
+        </AD_Table>
+        <AD_Tab type="table">
+            <AD_Client_ID>0</AD_Client_ID>
+            <AD_Org_ID>0</AD_Org_ID>
+            <Name>Main Tab</Name>
+            <Description>The man tab for the win</Description>
+            <Help/>
+            <AD_Window_ID reference="uuid" reference-key="AD_Window">2722dadb-ded0-4f28-9efa-a9bf360d0adb</AD_Window_ID>
+            <SeqNo>10</SeqNo>
+            <IsSingleRow>Y</IsSingleRow>
+            <AD_Table_ID reference="uuid" reference-key="AD_Table">e266a89a-0b46-4f8b-85d9-683da6304acd</AD_Table_ID>
+            <IsActive>Y</IsActive>
+            <HasTree>N</HasTree>
+            <IsInfoTab>N</IsInfoTab>
+            <IsTranslationTab>N</IsTranslationTab>
+            <IsReadOnly>N</IsReadOnly>
+            <AD_Column_ID reference="id"/>
+            <WhereClause/>
+            <OrderByClause/>
+            <CommitWarning/>
+            <AD_Process_ID reference="id"/>
+            <Processing>N</Processing>
+            <AD_Image_ID reference="id"/>
+            <ImportFields>N</ImportFields>
+            <TabLevel>0</TabLevel>
+            <IsSortTab>N</IsSortTab>
+            <AD_ColumnSortYesNo_ID reference="id"/>
+            <AD_ColumnSortOrder_ID reference="id"/>
+            <EntityType>U</EntityType>
+            <Included_Tab_ID reference="id"/>
+            <ReadOnlyLogic/>
+            <DisplayLogic/>
+            <IsInsertRecord>Y</IsInsertRecord>
+            <IsAdvancedTab>N</IsAdvancedTab>
+            <Parent_Column_ID reference="id"/>
+            <AD_Tab_UU>c6ea8809-6ae5-4a71-b232-324a8ca530a1</AD_Tab_UU>
+            <AD_CtxHelp_ID reference="id"/>
+            <TreeDisplayedOn>B</TreeDisplayedOn>
+            <AD_Tab_Trl type="translation">
+                <Help/>
+                <CommitWarning/>
+                <Name>Main Tab</Name>
+                <Description>The man tab for the win</Description>
+                <AD_Language>es_CO</AD_Language>
+                <IsActive>Y</IsActive>
+                <IsTranslated>N</IsTranslated>
+            </AD_Tab_Trl>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Client</Name>
+                <Description>Client/Tenant for this installation.</Description>
+                <Help>A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">c6ea8809-6ae5-4a71-b232-324a8ca530a1</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">41e4abbe-0492-4577-9479-67f78a5a74e9</AD_Column_ID>
+                <IsDisplayed>Y</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>22</DisplayLength>
+                <SeqNo>10</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>65bac03e-f4fc-4ec7-afc3-3ea4cc1150c5</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid/>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>A Client is a company or a legal entity. You cannot share data between Clients. Tenant is a synonym for Client.</Help>
+                    <Description>Client/Tenant for this installation.</Description>
+                    <Name>Client</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Organization</Name>
+                <Description>Organizational entity within client</Description>
+                <Help>An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">c6ea8809-6ae5-4a71-b232-324a8ca530a1</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">c57a6faa-9e3d-484f-b25c-8af6bf34076a</AD_Column_ID>
+                <IsDisplayed>Y</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>22</DisplayLength>
+                <SeqNo>20</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>987dd02b-9cc7-43f8-a607-9effb2191892</AD_Field_UU>
+                <IsAllowCopy>Y</IsAllowCopy>
+                <IsDisplayedGrid>Y</IsDisplayedGrid>
+                <SeqNoGrid>10</SeqNoGrid>
+                <XPosition>4</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.</Help>
+                    <Description>Organizational entity within client</Description>
+                    <Name>Organization</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Name</Name>
+                <Description>Alphanumeric identifier of the entity</Description>
+                <Help>The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">c6ea8809-6ae5-4a71-b232-324a8ca530a1</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">12b4802a-6965-4a90-be78-82f74bf3d9dc</AD_Column_ID>
+                <IsDisplayed>Y</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>60</DisplayLength>
+                <SeqNo>30</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>47bc51a2-d052-405a-b77c-db1bceedb2c7</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>Y</IsDisplayedGrid>
+                <SeqNoGrid>20</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>5</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.</Help>
+                    <Description>Alphanumeric identifier of the entity</Description>
+                    <Name>Name</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Description</Name>
+                <Description>Optional short description of the record</Description>
+                <Help>A description is limited to 255 characters.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">c6ea8809-6ae5-4a71-b232-324a8ca530a1</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">1ff3e8ae-764d-4b4c-a6a3-f9d767196b3a</AD_Column_ID>
+                <IsDisplayed>Y</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>255</DisplayLength>
+                <SeqNo>40</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>193cb5bd-5ff2-4817-a738-6a25b2696ac4</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>Y</IsDisplayedGrid>
+                <SeqNoGrid>30</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>5</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>A description is limited to 255 characters.</Help>
+                    <Description>Optional short description of the record</Description>
+                    <Name>Description</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Active</Name>
+                <Description>The record is active in the system</Description>
+                <Help>There are two methods of making records unavailable in the system: One is to delete the record, the other is to de-activate the record. A de-activated record is not available for selection, but available for reports.
+There are two reasons for de-activating and not deleting records:
+(1) The system requires the record for audit purposes.
+(2) The record is referenced by other records. E.g., you cannot delete a Business Partner, if there are invoices for this partner record existing. You de-activate the Business Partner and prevent that this record is used for future entries.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">c6ea8809-6ae5-4a71-b232-324a8ca530a1</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">bcc42bb3-06f0-4330-a432-1b26205ffc29</AD_Column_ID>
+                <IsDisplayed>Y</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>1</DisplayLength>
+                <SeqNo>50</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>276294f9-10c3-42bf-9810-5fe1cd14685f</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>Y</IsDisplayedGrid>
+                <SeqNoGrid>40</SeqNoGrid>
+                <XPosition>2</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>There are two methods of making records unavailable in the system: One is to delete the record, the other is to de-activate the record. A de-activated record is not available for selection, but available for reports.
+There are two reasons for de-activating and not deleting records:
+(1) The system requires the record for audit purposes.
+(2) The record is referenced by other records. E.g., you cannot delete a Business Partner, if there are invoices for this partner record existing. You de-activate the Business Partner and prevent that this record is used for future entries.</Help>
+                    <Description>The record is active in the system</Description>
+                    <Name>Active</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>SilWin2</Name>
+                <Description/>
+                <Help/>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">c6ea8809-6ae5-4a71-b232-324a8ca530a1</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">b34112f7-e881-4fc6-8c08-10fe7937974f</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>22</DisplayLength>
+                <SeqNo/>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>6d17e0f8-f668-476d-91c3-f386516a9843</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid/>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help/>
+                    <Description/>
+                    <Name>SilWin2</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>STP_SillWIn2_UU</Name>
+                <Description/>
+                <Help/>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">c6ea8809-6ae5-4a71-b232-324a8ca530a1</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">5c5c6b4c-e1f8-42fc-96fb-18bda87ae156</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>36</DisplayLength>
+                <SeqNo/>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>e1b1b75e-c500-44ee-bd27-c715a53d1137</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid/>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help/>
+                    <Description/>
+                    <Name>STP_SillWIn2_UU</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+        </AD_Tab>
+    </AD_Window>
+</idempiere>
